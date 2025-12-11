@@ -1,5 +1,5 @@
 //name: Epic免费游戏领取提醒
-//cron: 30 7 * * 5
+//cron: 0 50 7 * * ? 
 // 每周五早上7:30执行，推送Epic本周免费游戏信息到钉钉群
 
 const axios = require('axios');
